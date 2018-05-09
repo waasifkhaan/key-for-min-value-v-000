@@ -10,6 +10,6 @@ def key_for_min_value(name_hash)
       array << value 
       aray  << key
   end
-  array.min
+  array
   end
 end
