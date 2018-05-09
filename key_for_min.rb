@@ -7,8 +7,8 @@ def key_for_min_value(name_hash)
   else
     array = []
   name_hash.each do |key , value|
-      array <<   
+      array << value  
   end
-  
+  array.min
   end
 end
