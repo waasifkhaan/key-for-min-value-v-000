@@ -5,9 +5,12 @@ def key_for_min_value(name_hash)
   if name_hash == {}
     nil
   else
+    key1 = nil
+    value1 = nil
     name_hash.each do |key , value|
-      array << value 
-      array  << key
+      if value1.nil? 
+        value1 = value
+      key1 << key
   end
   array
   end
